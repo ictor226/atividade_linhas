@@ -1,0 +1,65 @@
+/* Classes para a linhas e colunas */
+.linha{
+    display: flex;
+    margin: 10px;
+}
+
+.linha>div{
+    border: 2px solid tomato;
+}
+.Coluna{
+   flex: 0 ; 
+}
+
+
+
+.bg-tomato{
+   background-color: tomato;
+   font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.Coluna-1{
+ flex: 0 0 8,33%;
+}
+.Coluna-2{
+    flex: 0 0 16,66% ;
+}
+.Coluna-3{
+    flex: 0 0 25%;
+}
+.Coluna-4{
+    flex: 0 0 33.33%;
+}
+
+.Coluna-5{
+    flex: 0 0 41,66% ;
+}
+
+.Coluna-6{
+      flex: 0 0 50%;
+}
+.Coluna-7{
+    flex: 0 0 58,33%;
+}
+.Coluna-8{
+    flex: 0 0 66,66%;
+}
+.Coluna-9{
+    flex: 0 0 75%;
+}
+.Coluna-10{
+    flex: 0 0 83,33%;
+}
+.Coluna-11{
+    flex: 0 0 91,66%;
+}
+.Coluna-12{
+    flex: 0 0 100px;
+}
